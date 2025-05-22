@@ -7,6 +7,6 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
     container_name: watchtower
   app:
-    image: cxu354/beermapping
+    image: cxu354/express-app
     ports:
       - "8080:8080"
